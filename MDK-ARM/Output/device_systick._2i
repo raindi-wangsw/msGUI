@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I..\SourceFile -I..\SourceFile\App -I..\SourceFile\System -I..\SourceFile\System\OS -I..\SourceFile\System\GUI -I..\SourceFile\System\Device -I..\SourceFile\System\Device\Drive -I..\SourceFile\System\Device\Drive\CMSIS -I..\SourceFile\System\Device\Drive\LIB\inc --c99 --diag-suppress 111
+-I C:\Users\Administrator\Desktop\Work\msGUI\MDK-ARM\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F429xx -DUSE_STDPERIPH_DRIVER -DSTM32F429_439xx
+-o .\output\device_systick.o --depend .\output\device_systick.d --feedback ".\Output\msGUI.fed" "..\SourceFile\System\Device\device_systick.c"

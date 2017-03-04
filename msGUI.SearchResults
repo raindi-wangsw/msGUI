@@ -1,0 +1,11 @@
+---- Text Matches (11 in 6 files) ----
+Fonts.c (sourcefile\system\gui):  * @brief   This file provides text fonts for STM32xx-EVAL's LCD driver. 
+Gui.c (sourcefile\system\gui):/* Global variables to set the written text color */
+Gui.c (sourcefile\system\gui):void Text(void)
+Gui.c (sourcefile\system\gui):    //System.Gui.Function.Text = Text;
+Logic.c (sourcefile\app):                        //System.Gui.Function.Text();
+Logic.c (sourcefile\app):                        //Text();
+Startup_stm32f429_439xx.s (sourcefile\system\device\drive\cmsis\startup):                AREA    |.text|, CODE, READONLY
+Stm32f4xx_hash.c (sourcefile\system\device\drive\lib\src):       text using the same mechanism as the one used to send the message in the
+System.h (sourcefile\system):            void (* Text)(void);
+System.h (sourcefile\system):extern void Text(void);
